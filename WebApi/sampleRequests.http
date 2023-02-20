@@ -1,0 +1,10 @@
+﻿GET http://localhost:5258/orders?orderId=1
+Accept: application/json
+
+###
+GET http://localhost:5258/orders?orderId=-1
+Accept: application/json
+
+###
+GET http://localhost:5258/orders?orderId=666
+Accept: application/json
